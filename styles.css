@@ -1,0 +1,266 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #F5F7FA;
+}
+
+#maim {
+    width: 1100px;
+    height: auto;
+    border: 1px solid #c3c3c3;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#maim div {
+    width: auto;
+    height: auto;
+}
+/* main styles (row-rewers - в одну лінію і поміняти місцями)*/
+
+/* .main {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 0 auto;
+} */
+
+.main_content {
+    background-color: #fff;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    padding: 105px 90px;
+
+}
+
+/* about styles стили текста - Montserrat*/
+
+.about {
+    margin-bottom: 40px;
+    /* background-color: yellow; */
+}
+
+.about-position {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.about-name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.about-discription {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24x;
+    color: #595959;
+    width: 400px;
+}
+
+/* projects styles */
+
+.projects {
+    margin-bottom: 50px;
+}
+
+
+
+.title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27x;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.project-list{
+    padding: 0;
+    margin-left: 15px;
+}
+
+.project-item {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24x;
+    color: #000000;
+}
+
+.project,
+.project-link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24x;
+    color: #595959;
+}
+
+.project-link {
+    margin-left: 10px;
+}
+
+.project-brecket {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24x;
+    color: #000000;
+}
+
+.work {
+    margin-bottom: 45px;
+}
+
+.work-position{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20x;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.work-organizzation{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20x;
+    color: #FB6D3A;
+}
+
+.period{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15x;
+    color: #a8a8a8;
+    margin-bottom: 10px;
+}
+
+.line
+ {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15x;
+    color: #000000;
+ }
+
+ .work-list{
+    padding: 0;
+    margin-left: 15px;
+
+ }
+
+ .work-list-item{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 124x;
+    color: #595959;
+ }
+
+/* .education {
+
+} */
+
+.university{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20x;
+    color: #FB6D3A;
+    margin-bottom: 10px;
+}
+
+.department{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17x;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+
+.sidebar {
+    background-color: #1e2939;
+    padding-top: 40px;
+    width: 370px;
+}
+
+
+.photo {
+    width: 370px;
+    margin-bottom: 50px;
+}
+
+.contacts,
+.tech-skills,
+.soft-skills {
+    margin-left: 40px;
+}
+
+.contacts {
+    margin-bottom: 50px;
+}
+
+
+.sidebar-titel {
+    color: #ffffff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 10px;
+}
+
+.contact-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+.contakt-link {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #565e6a;
+}
+
+.tech-skills {
+    margin-bottom: 45px;
+}
+
+.tech-scills-list,
+.soft-skills-list {
+    color: #fff;
+    padding: 0;
+    margin-left: 17px;
+}
+
+.tech-scills-item,
+.soft-skills-item {
+    color: #FB6D3A;
+}
+
+.tech-skills-text,
+.soft-skills-text {
+    color: #fff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+}
